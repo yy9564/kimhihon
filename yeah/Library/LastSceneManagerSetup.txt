@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/mainHall1-1.unity
+- path: Assets/Scenes/mainHall.unity
   isLoaded: 1
   isActive: 1
