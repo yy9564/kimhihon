@@ -19,13 +19,13 @@ public class CameraControl : MonoBehaviour {
         float posX = player.transform.position.x;
         rotY = gameObject.transform.rotation.eulerAngles.y;
 
-        //transform.position = new Vector3(posX, 0, -10);
+        transform.position = new Vector3(posX, 0, -10);
 
-        if (Input.GetKeyDown(KeyCode.LeftArrow) && (rotY==0)){
+        /*if (Input.GetKeyDown(KeyCode.LeftArrow) && (rotY==0)){
             transform.Rotate(new Vector3(0, 180, 0));
         }
         else if (Input.GetKeyDown(KeyCode.RightArrow) && (rotY == 180)) {
             transform.Rotate(new Vector3(0,-180,0));
-        }
+        }*/
     }
 }
